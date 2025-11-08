@@ -1,3 +1,3 @@
 # Weather App
 
-TRying to build a simple weather app..
+Trying to build a simple weather app..
