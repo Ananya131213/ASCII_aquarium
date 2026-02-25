@@ -3,8 +3,8 @@ import random
 import math
 
 # ── Window settings ──────────────────────────────────────────────────────────
-WIN_W   = 900
-WIN_H   = 420
+WIN_W   = 300
+WIN_H   = 140
 BG      = "#010d1a"          # deep-ocean dark
 FG_FISH = "#7fffd4"          # aquamarine
 FG_SEAG = "#2d8f6f"          # sea-green
@@ -168,9 +168,9 @@ class Aquarium:
         self.floor_y = WIN_H - 40   # y-position of the sandy floor
 
         # ── Entities ──────────────────────────────────────────────────────────
-        num_fish    = 10
-        num_bubbles = 25
-        num_grass   = 18
+        num_fish    = 3
+        num_bubbles = 4
+        num_grass   = 2
 
         self.fishes  = [Fish(WIN_W, WIN_H, self.floor_y)  for _ in range(num_fish)]
         self.bubbles = [Bubble(WIN_W, self.floor_y)        for _ in range(num_bubbles)]
